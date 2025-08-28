@@ -7,7 +7,7 @@ services:
     image: chrishubert/whatsapp-web-api:latest # Pull the image from Docker Hub
     restart: always
     ports:
-      - "80:80"
+      - "80:3000"
     environment:
       # - API_KEY=your_global_api_key_here  # OPTIONAL
       - BASE_WEBHOOK_URL=https://whatsapp-api-production-b573.up.railway.app/localCallbackExample
